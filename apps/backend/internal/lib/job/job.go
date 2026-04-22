@@ -3,7 +3,7 @@ package job
 import (
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-boilerplate/internal/config"
+	"github.com/sriniously/go-todo/internal/config"
 )
 
 type JobService struct {
