@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/server"
 
 	"github.com/labstack/echo/v4"
 )

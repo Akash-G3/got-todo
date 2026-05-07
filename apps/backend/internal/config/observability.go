@@ -35,7 +35,7 @@ type HealthChecksConfig struct {
 
 func DefaultObservabilityConfig() *ObservabilityConfig {
 	return &ObservabilityConfig{
-		ServiceName: "go-todo",
+		ServiceName: "gotodo",
 		Environment: "development",
 		Logging: LoggingConfig{
 			Level:              "info",

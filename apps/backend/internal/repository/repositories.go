@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/sriniously/go-todo/internal/server"
+import "github.com/sriniously/gotodo/internal/server"
 
 type Repositories struct{}
 

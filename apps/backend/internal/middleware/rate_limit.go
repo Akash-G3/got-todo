@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/server"
 )
 
 type RateLimitMiddleware struct {

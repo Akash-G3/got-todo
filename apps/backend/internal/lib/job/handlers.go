@@ -7,8 +7,8 @@ import (
 
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-todo/internal/config"
-	"github.com/sriniously/go-todo/internal/lib/email"
+	"github.com/sriniously/gotodo/internal/config"
+	"github.com/sriniously/gotodo/internal/lib/email"
 )
 
 var emailClient *email.Client

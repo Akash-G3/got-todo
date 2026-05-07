@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/sriniously/go-todo/internal/server"
-	"github.com/sriniously/go-todo/internal/service"
+	"github.com/sriniously/gotodo/internal/server"
+	"github.com/sriniously/gotodo/internal/service"
 )
 
 type Handlers struct {

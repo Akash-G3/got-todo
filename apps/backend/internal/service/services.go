@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/sriniously/go-todo/internal/lib/job"
-	"github.com/sriniously/go-todo/internal/repository"
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/lib/job"
+	"github.com/sriniously/gotodo/internal/repository"
+	"github.com/sriniously/gotodo/internal/server"
 )
 
 type Services struct {

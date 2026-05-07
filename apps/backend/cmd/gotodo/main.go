@@ -8,14 +8,14 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/sriniously/go-todo/internal/config"
-	"github.com/sriniously/go-todo/internal/database"
-	"github.com/sriniously/go-todo/internal/handler"
-	"github.com/sriniously/go-todo/internal/logger"
-	"github.com/sriniously/go-todo/internal/repository"
-	"github.com/sriniously/go-todo/internal/router"
-	"github.com/sriniously/go-todo/internal/server"
-	"github.com/sriniously/go-todo/internal/service"
+	"github.com/sriniously/gotodo/internal/config"
+	"github.com/sriniously/gotodo/internal/database"
+	"github.com/sriniously/gotodo/internal/handler"
+	"github.com/sriniously/gotodo/internal/logger"
+	"github.com/sriniously/gotodo/internal/repository"
+	"github.com/sriniously/gotodo/internal/router"
+	"github.com/sriniously/gotodo/internal/server"
+	"github.com/sriniously/gotodo/internal/service"
 )
 
 const DefaultContextTimeout = 30

@@ -1,4 +1,4 @@
-module github.com/sriniously/go-todo
+module github.com/sriniously/gotodo
 
 go 1.24.5
 

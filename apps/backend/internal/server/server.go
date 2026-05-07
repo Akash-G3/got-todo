@@ -10,10 +10,10 @@ import (
 	"github.com/newrelic/go-agent/v3/integrations/nrredis-v9"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-todo/internal/config"
-	"github.com/sriniously/go-todo/internal/database"
-	"github.com/sriniously/go-todo/internal/lib/job"
-	loggerPkg "github.com/sriniously/go-todo/internal/logger"
+	"github.com/sriniously/gotodo/internal/config"
+	"github.com/sriniously/gotodo/internal/database"
+	"github.com/sriniously/gotodo/internal/lib/job"
+	loggerPkg "github.com/sriniously/gotodo/internal/logger"
 )
 
 type Server struct {

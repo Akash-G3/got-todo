@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sriniously/go-todo/internal/middleware"
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/middleware"
+	"github.com/sriniously/gotodo/internal/server"
 
 	"github.com/labstack/echo/v4"
 )

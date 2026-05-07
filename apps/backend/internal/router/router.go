@@ -5,10 +5,10 @@ import (
 
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
-	"github.com/sriniously/go-todo/internal/handler"
-	"github.com/sriniously/go-todo/internal/middleware"
-	"github.com/sriniously/go-todo/internal/server"
-	"github.com/sriniously/go-todo/internal/service"
+	"github.com/sriniously/gotodo/internal/handler"
+	"github.com/sriniously/gotodo/internal/middleware"
+	"github.com/sriniously/gotodo/internal/server"
+	"github.com/sriniously/gotodo/internal/service"
 	"golang.org/x/time/rate"
 )
 

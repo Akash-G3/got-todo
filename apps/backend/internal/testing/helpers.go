@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/server"
 	"github.com/stretchr/testify/require"
 )
 

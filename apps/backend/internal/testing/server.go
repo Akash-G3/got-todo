@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-todo/internal/config"
-	"github.com/sriniously/go-todo/internal/database"
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/config"
+	"github.com/sriniously/gotodo/internal/database"
+	"github.com/sriniously/gotodo/internal/server"
 )
 
 // CreateTestServer creates a server instance for testing

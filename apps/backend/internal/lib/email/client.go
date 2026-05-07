@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/resend/resend-go/v2"
 	"github.com/rs/zerolog"
-	"github.com/sriniously/go-todo/internal/config"
+	"github.com/sriniously/gotodo/internal/config"
 )
 
 type Client struct {
@@ -37,7 +37,7 @@ func (c *Client) SendEmail(to, subject string, templateName Template, data map[s
 	}
 
 	params := &resend.SendEmailRequest{
-		From:    fmt.Sprintf("%s <%s>", "go-todo", "onboarding@resend.dev"),
+		From:    fmt.Sprintf("%s <%s>", "gotodo", "onboarding@resend.dev"),
 		To:      []string{to},
 		Subject: subject,
 		Html:    body.String(),

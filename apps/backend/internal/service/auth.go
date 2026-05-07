@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/sriniously/go-todo/internal/server"
+	"github.com/sriniously/gotodo/internal/server"
 
 	"github.com/clerk/clerk-sdk-go/v2"
 )
