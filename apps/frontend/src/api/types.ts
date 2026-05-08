@@ -1,4 +1,4 @@
-import { apiContract } from "@go-todo/openapi/contracts";
+import { apiContract } from "@gotodo/openapi/contracts";
 import type { ServerInferRequest } from "@ts-rest/core";
 
 export type TRequests = ServerInferRequest<typeof apiContract>;

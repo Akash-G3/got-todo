@@ -1,5 +1,5 @@
 import { API_URL } from "@/config/env";
-import { apiContract } from "@go-todo/openapi/contracts";
+import { apiContract } from "@gotodo/openapi/contracts";
 import { useAuth } from "@clerk/clerk-react";
 import { initClient } from "@ts-rest/core";
 import axios, {

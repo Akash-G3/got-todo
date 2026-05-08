@@ -1,5 +1,5 @@
 {
-  "name": "@go-todo/emails",
+  "name": "@gotodo/emails",
   "version": "1.0.0",
   "description": "Package to manage emails",
   "type": "module",

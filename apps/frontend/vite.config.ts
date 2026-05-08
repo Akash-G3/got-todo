@@ -15,11 +15,11 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@go-todo/openapi": path.resolve(
+      "@gotodo/openapi": path.resolve(
         __dirname,
         "../../packages/openapi/src"
       ),
-      "@go-todo/zod": path.resolve(__dirname, "../../packages/zod/src"),
+      "@gotodo/zod": path.resolve(__dirname, "../../packages/zod/src"),
     },
   },
 });
